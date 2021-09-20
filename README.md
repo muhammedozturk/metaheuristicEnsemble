@@ -5,3 +5,17 @@ A metaheuristic ensemble technique is proposed to configure the initialization h
 # Documentation
 
 ensembleBayes.R, ensembleGenetic.R, and randomSearchEnsemble.R main source codes including metaheuricstic ensemble to initialize the hyper-parameters of those methods 
+
+First install following packages:
+
+library("rlist")
+library("NMOF")
+library("Metrics")
+library("rBayesianOptimization")
+library("metaheuristicOpt")
+
+Second, echoStateFunction.R includes Echo state Function that was utilized to perform weather forecasting.
+
+The data sets Natal, Manaus, Saopaulo, and Sudeste are of Brazilian weather data and can be accessed through
+ https://github.com/ASOCDataSets/Weather-DataSet
+ https://www.kaggle.com/rtatman/reading-in-sudeste-csv-file
